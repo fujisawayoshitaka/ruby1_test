@@ -50,6 +50,8 @@ class Janken
           player_hand = input_hand
 
         end
+        enemy_hand = rand(3)
+
       elsif (player_hand - enemy_hand + 3) % 3 == 1
         judgement = "負け"
         break
